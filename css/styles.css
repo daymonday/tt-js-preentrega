@@ -12,7 +12,7 @@ body {
   font-size: 2rem;
   line-height: 2;
   background-color: #F0F8FF;
-  color: #e5e6e8;
+  color: #orange;
 
   display: flex;
   flex-direction: column;
@@ -226,3 +226,4 @@ main .detalle-prod {
   }
 
 }
+
