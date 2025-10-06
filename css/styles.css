@@ -1,4 +1,3 @@
-/* Reset de css */
 * {
   margin: 0;
   padding: 0;
@@ -6,16 +5,12 @@
 }
 
 html {
-  /* Sin congiguracion el rem vale: */
-  /* 1rem = 16px */
-
-  /* Para que 1 rem = 10px */
   font-size: 62.5%;
 }
 body {
-  font-family: "Saira Condensed", sans-serif;
-  font-size: 1.6rem;
-  line-height: 1.5;
+  font-family: "Jost", sans-serif;
+  font-size: 2rem;
+  line-height: 2;
   background-color: #F0F8FF;
   color: #e5e6e8;
 
@@ -27,7 +22,6 @@ body {
 
 .header {
   background-color: #778899;
-
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -36,7 +30,6 @@ body {
 .header__logo {
   padding: 1rem;
   margin-left: 2rem;
-
   font-size: 3rem;
   font-weight: bold;
 }
@@ -231,4 +224,5 @@ main .detalle-prod {
     width: 60%;
     min-width: 700px;
   }
+
 }
